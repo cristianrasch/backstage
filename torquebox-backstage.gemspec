@@ -33,14 +33,14 @@ Gem::Specification.new do |s|
 
 
   deps = [
-          [%q<sinatra>, "= 1.4.4"],
-          [%q<haml>, "~> 3.0"],
+          [%q<sinatra>, "~> 1.4.4"],
+          [%q<haml>, "~> 4.0"],
           [%q<sass>, "~> 3.1.2"],
           [%q<jmx>, "= 0.9"],
-          [%q<json>, "= 1.8.1"],
+          [%q<json>, "~> 1.8.1"],
           [%q<torquebox>, ">= 2.0", "< 4.0"],
           [%q<rack-accept>, "~> 0.4.4"],
-          [%q<thor>, "= 0.14.6"],
+          [%q<thor>, "~> 0.14"],
           [%q<bundler>, "~> 1.0"],
           [%q<torquebox-webconsole>, '0.2.0']
          ]
